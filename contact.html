@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html" id="about">About</a>
+    <a href="#" id="contact" class="active">Contact</a>
+  </div>
+
+  <div class="content">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Please reach out with any questions or inquiries.</p>
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: info@company.com</li>
+      <li>Phone: +91 9872939394</li>
+      <li>Address: Gujarat, India</li>
+    </ul>
+    <h2>Send Us a Message</h2>
+    <form action="/blank" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
